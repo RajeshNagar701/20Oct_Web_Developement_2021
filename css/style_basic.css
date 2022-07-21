@@ -1,0 +1,80 @@
+
+
+*{
+	box-sizing:border-box;
+}
+
+.header{
+	
+	background-color:red;
+	height:100px; 
+	width:100%;
+	float:left;
+}
+
+.sidebar{
+	
+	background-color:orange;
+	height:500px; 
+	width:10%;
+	float:left;
+}
+
+.mainbar{
+	
+	background-color:green;
+	height:500px; 
+	width:80%;
+	float:left;
+}
+
+.footer{
+	
+	background-color:black;
+	height:100px; 
+	width:100%;
+	float:left;
+	color:white;
+}
+
+.logo{
+	border-radius:20px;
+	margin:25px;
+	float:left;
+}
+
+
+.menu{
+	
+	color:yellow;
+	font-size:25px;
+	text-decoration:none;
+	margin-left:20px;
+}
+
+.menupos{
+	margin-top:50px;
+}
+
+
+ul.side{
+	color:red;
+	list-style-type:none;
+	padding:10px;
+}
+
+.main{
+	color:white;
+	padding:20px;
+}
+
+
+.footdiv{
+	width:25%;
+	float:left;
+	padding:20px;
+	
+}
+
+
+

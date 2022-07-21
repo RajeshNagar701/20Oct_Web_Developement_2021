@@ -1,0 +1,139 @@
+
+<!--
+
+
+The position property specifies the type of positioning method used 
+for an element.
+There are five different position values:
+
+1)static This is the normal positioning scheme in which elements are 
+positioned as they occur in the normal document flow.
+ 
+2)relative Relative positioning moves the box relative to its original 
+position in the flow. The distinctive behavior of relative positioning 
+is that the space the element would have occupied in the normal flow 
+is preserved.
+
+3)fixed The distinguishing characteristic of fixed positioning is that
+ the element stays in one position in the window even when the document 
+ scrolls. Fixed elements are removed from the document flow and positioned
+ relative to the browser window (or other viewport). rather than another
+ element in the document.
+ 
+4)absolute : Absolutely positioned elements are removed from the document 
+flow entirely and positioned relative to a containing element 
+(we’ll talk more about this later). Unlike relatively positioned elements,
+ the space they would have occupied is closed up. In fact, they have no 
+ influence at all on the layout of surrounding elements.
+ 
+5)sticky : An element with position: sticky; is positioned based on the 
+user's scroll position.A sticky element toggles between relative and 
+fixed, depending on the scroll position. It is positioned relative 
+until a given offset position is met in the viewport - then it "sticks" 
+in place (like position:fixed).
+
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  overflow-x: hidden;
+}
+
+.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+div.fixed {
+  position: fixed; 
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  bottom:0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+ 
+}
+
+
+.container{
+ 
+ position: relative;
+ height:100px;
+ width:100%;;
+ background-color:red;
+ float:left;
+}
+
+
+.absolute {
+  position: absolute;
+  border: 3px solid #73AD21;
+ top:10px;
+ left:50px;
+}
+</style>
+</head>
+<body>
+
+
+
+
+<h2>position: static;</h2>
+
+<div class="sticky">
+This div element has position: relative;
+</div>
+
+
+
+
+<p>An element with position: static; is not positioned in any special way; it is 
+always positioned according to the normal flow of the page:</p>
+
+<div class="static">
+  This div element has position: static;
+</div>
+
+<br>
+
+<div class="relative">
+This div element has position: relative;
+</div>
+
+<br>
+<br><br><br><br><br>
+<div class="fixed">
+This div element has position: relative;
+</div>
+<br>
+<p>hi how are you</p>
+<p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p><p>hi how are you</p>
+
+
+
+<div class="container">
+	<div class="absolute">
+	This div element has position: absolute;
+	</div>
+</div>
+
+
+
+
+</body>
+</html>

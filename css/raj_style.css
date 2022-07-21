@@ -1,0 +1,36 @@
+h1,h2,h3{
+	color:red;
+	background-color:yellow; 
+	font-size:20px;
+	text-align:center;
+}
+
+.raj{
+	color:green;
+	background-color:orange;
+}
+
+.nagar{
+	text-decoration:underline;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.nagar p{
+	
+	font-size:30px;
+	
+}
+
+#rajesh{
+	color:blue;
+	background-color:pink;
+}
+
+
+h4.test{
+	color:purple;
+	text-shadow:5px 5px;
+}
+
+

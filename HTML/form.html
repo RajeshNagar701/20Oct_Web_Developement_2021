@@ -1,0 +1,152 @@
+
+<!--
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+
+
+method : get / post
+
+
+if method get (default)
+
+not secure / display data in URL
+ONLY 100 CHAR get
+
+so use only POST method  
+
+secure
+unlimited char get
+
+
+-->
+
+<html>	
+	<head>
+	</head>
+	
+	<body>
+			
+		<form action="" method="post">	
+			
+			F Name: <input type="text" name="fname" value="raj"><br></br>
+			L Name: <input type="text" name="lname"><br></br>
+			Username: <input type="text" name="uname"><br></br>
+			Password: <input type="password" name="pass"><br></br>
+			Mobile: <input type="number" name="mob"><br></br>
+			Email: <input type="email" name="email_id"><br></br>
+			DOB: <input type="date" name="dob"><br></br>
+			Time: <input type="time" name="time"><br></br>
+			Date & Time: <input type="datetime-local" name="date_time"><br></br>
+			Upload File: <input type="file" name="file"><br></br>
+			Color: <input type="color" name="color"><br></br>
+			Hidden: <input type="hidden" name="hiiden" value="India" ><br></br>
+			Images: <input type="image" src="download.jpg"><br></br>
+			Select Month<input type="month" name="month"><br></br>
+			
+			Gender: <br>
+			Male : <input type="radio" name="gen" value="Male">
+			Female : <input type="radio" name="gen" value="Female"><br></br>
+			
+			Languages: <br>
+			Hindi : <input type="checkbox" name="lag" value="Hindi">
+			Gujarati : <input type="checkbox" name="lag" value="Gujarati">
+			English : <input type="checkbox" name="lag" value="English">
+			Other : <input type="checkbox" name="lag" value="Other">
+			<br></br>
+			
+			Address: <textarea name="address" cols="30" rows="5"></textarea>
+			<br></br>
+			
+			Country:
+			<select name="country">
+				<option value="">Select Country</option>
+				<option value="India">India</option>
+				<option value="China">China</option>
+				<option value="Japan">Japan</option>
+				<option value="Rusia">Rusia</option>
+				<option value="UK">UK</option>
+				<option value="USA">USA</option>
+			</select>
+			<br></br>
+			
+			
+			
+			<input type="submit" name="submit" value="submit here"><br></br>
+			<input type="button" name="button" value="Register"><br></br>
+			<button>Hello</button><br></br>
+			<input type="reset">
+		</form>	
+		
+		<hr>
+		
+		
+	<fieldset>
+		<legend>Login Here</legend>
+		
+		<h1>Login Here</h1>
+		<form action="" method="post">	
+			
+			User Name <input type="text" name="uname" value="raj"><br></br>
+			Password <input type="password" name="pass"><br></br>
+			<input type="submit" name="submit" value="Login"><br></br>
+		</form>
+	</fieldset>	
+		
+	<hr>
+
+
+	
+		
+		<h1 align="center">Login Here</h1>
+		<form action="" method="post"  >	
+			<table border="1" width="50%" style="color:red;background-color:yellow" cellpadding="20px" align="center">
+				<tr>
+					<td>User Name</td> 
+					<td><input type="text" name="uname" ></td>
+				</tr>
+				<tr>
+					<td>Password</td> 
+					<td><input type="Password" name="Password" ></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+					Remember  : <input type="checkbox" name="rem" >
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2">
+						<input type="submit" name="submit" value="Login">
+					</td>
+				</tr>
+			</table>
+		</form>
+	
+		
+		
+		
+	</body>
+	
+</html>
