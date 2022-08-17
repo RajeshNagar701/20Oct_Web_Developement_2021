@@ -41,7 +41,7 @@ function View_product() {
   const [editformvalue, seteditformvalue] = useState(initialiation);
   const [id, setId] = useState({});
   async function handeledit(EditID) {
-    const res = await axios.get(`http://localhost:8000/api/student/${EditID}`);
+    const res = await axios.get(`	`);
     if (res.data.status === 200) {
       seteditformvalue(res.data.students);
       setId(EditID);
